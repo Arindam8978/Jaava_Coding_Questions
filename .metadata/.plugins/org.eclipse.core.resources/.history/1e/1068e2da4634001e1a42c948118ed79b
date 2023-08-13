@@ -1,0 +1,20 @@
+package programming;
+
+public class StackPushPop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StackPushPop stack = new StackPushPop(5);
+	        stack.push(10);
+	        stack.push(20);
+	        stack.push(30);
+
+	        stack.pop();
+	        stack.pop();
+	        stack.pop();
+	        stack.pop(); // Trying to pop from an empty stack
+	    }
+	
+
+}

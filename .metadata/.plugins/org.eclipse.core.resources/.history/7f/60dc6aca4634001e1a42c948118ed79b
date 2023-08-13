@@ -1,0 +1,29 @@
+package programming;
+
+public class StackPushPop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 ArrayStack stack = new ArrayStack(5);
+	        stack.push(10);
+	        stack.push(20);
+	        stack.push(30);
+
+	        stack.pop();
+	        stack.pop();
+	        stack.pop();
+	        stack.pop(); // Trying to pop from an empty stack
+	    }
+	}
+	In this implementation, the ArrayStack class has methods for push and pop operations, along with a constructor to initialize the stack size. The stack is implemented using an integer array, and the top variable keeps track of the index of the top element. The push method adds an element to the stack, and the pop method removes and returns the top element. The example in the main method demonstrates the usage of the stack by pushing and popping elements.
+
+
+
+
+
+
+
+	}
+
+}

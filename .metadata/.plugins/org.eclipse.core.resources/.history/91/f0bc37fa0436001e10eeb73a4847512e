@@ -1,0 +1,17 @@
+package programming;
+
+public class NumberToWords {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		   Scanner scanner = new Scanner(System.in);
+	        System.out.print("Enter a number (0-99): ");
+	        int number = scanner.nextInt();
+	        String word = convertToWords(number);
+	        System.out.println("In words: " + word);
+		
+		
+	}
+
+}
